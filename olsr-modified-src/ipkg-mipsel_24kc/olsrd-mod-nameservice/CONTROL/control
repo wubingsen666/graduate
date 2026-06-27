@@ -1,0 +1,11 @@
+Package: olsrd-mod-nameservice
+Version: 0.9.7-v0.9.7
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceName: olsrd-mod-nameservice
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 10201
+Description:  Lightweight hostname resolver plugin

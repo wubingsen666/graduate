@@ -1,0 +1,11 @@
+Package: olsrd-mod-jsoninfo
+Version: 0.9.7-v0.9.7
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceName: olsrd-mod-jsoninfo
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 21149
+Description:  Small informative plugin with JSON output

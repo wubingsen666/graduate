@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "pre-bash": [
+      {
+        "pattern": "make\\s+clean",
+        "description": "⚠️ make clean 会删除 build_dir 下师兄修改过的 OLSR 源码！修改后的源码已备份到 olsr-modified-src/ 目录。如确需执行请手动确认。"
+      },
+      {
+        "pattern": "rm\\s+.*olsr-modified-src",
+        "description": "⚠️ 正在尝试删除 OLSR 修改源码备份目录，请确认操作！"
+      },
+      {
+        "pattern": "rm\\s+.*build_dir",
+        "description": "⚠️ 正在尝试删除 build_dir，其中包含师兄修改的 OLSR 源码！"
+      }
+    ]
+  }
+}

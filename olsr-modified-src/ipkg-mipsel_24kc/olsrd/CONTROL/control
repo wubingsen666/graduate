@@ -1,0 +1,11 @@
+Package: olsrd
+Version: 0.9.7-v0.9.7
+Depends: libc, libpthread
+Source: feeds/routing/olsrd
+SourceName: olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 132148
+Description:  OLSR (Optimized Link State Routing) daemon
