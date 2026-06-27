@@ -1,0 +1,97 @@
+Package: cgi-io
+Version: 2021-09-08-98cef9dd-20
+Depends: libc, libubox20191228, libubus20210603
+License: GPL-2.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 7562
+Filename: cgi-io_2021-09-08-98cef9dd-20_mipsel_24kc.ipk
+Size: 8361
+SHA256sum: 7eb994e536a4456d2b7846c279592f13d2206a1f845ba08a123e797c993c7e7b
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: libpcre
+Version: 8.43-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 80271
+Filename: libpcre_8.43-1_mipsel_24kc.ipk
+Size: 81145
+SHA256sum: 60c404ce5223bf48ed8b47e8f730501c82ca5098a85c1f69a0a0ffa97a6cdac7
+Description:  A Perl Compatible Regular Expression library
+
+Package: nmap
+Version: 7.70-1
+Depends: libc, libpcap1, libstdcpp6, zlib, libpcre
+License: GPL-2.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2185185
+Filename: nmap_7.70-1_mipsel_24kc.ipk
+Size: 2178453
+SHA256sum: 474c38a3ea60dca03631302ae7ef5d745f665c835d99f37c590ca53a1e370fbf
+Description:  Utility for network exploration or security auditing
+
+Package: openssh-client
+Version: 8.0p1-1
+Depends: libc, libopenssl1.1, zlib
+Alternatives: 200:/usr/bin/ssh:/usr/bin/openssh-ssh, 200:/usr/bin/scp:/usr/bin/openssh-scp
+License: BSD ISC
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 311951
+Filename: openssh-client_8.0p1-1_mipsel_24kc.ipk
+Size: 312264
+SHA256sum: 52f8ae4edb28cf6724c40df55ee02b4e348514db62f402381c60822a1624c969
+Description:  OpenSSH client.
+
+Package: openssh-keygen
+Version: 8.0p1-1
+Depends: libc, libopenssl1.1, zlib
+License: BSD ISC
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 154684
+Filename: openssh-keygen_8.0p1-1_mipsel_24kc.ipk
+Size: 155086
+SHA256sum: a4e79e74f55529ccb0bfe34c97a7c297b3bd898f9af4f987a2a5b05edaa88f61
+Description:  OpenSSH keygen.
+
+Package: openssh-server
+Version: 8.0p1-1
+Depends: libc, libopenssl1.1, zlib, openssh-keygen
+License: BSD ISC
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 289192
+Filename: openssh-server_8.0p1-1_mipsel_24kc.ipk
+Size: 289586
+SHA256sum: 02166297f03d1b43044cfacaa56bf04e1141beb26a0c8d3fd587eb51e58c149d
+Description:  OpenSSH server.
+
+Package: openssh-sftp-client
+Version: 8.0p1-1
+Depends: libc, libopenssl1.1, zlib
+License: BSD ISC
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 54760
+Filename: openssh-sftp-client_8.0p1-1_mipsel_24kc.ipk
+Size: 55631
+SHA256sum: 55f25ee375c49711e823263beb9b060d3c77c7d4cc6bcfb3d71673fa7100e0b8
+Description:  OpenSSH SFTP client.
+
+Package: openssh-sftp-server
+Version: 8.0p1-1
+Depends: libc, libopenssl1.1, zlib
+License: BSD ISC
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 39027
+Filename: openssh-sftp-server_8.0p1-1_mipsel_24kc.ipk
+Size: 39770
+SHA256sum: 1a88c91395e6b64a0cce08624e19ec71657686fcceba504d08d91255b9f6c57d
+Description:  OpenSSH SFTP server.
+

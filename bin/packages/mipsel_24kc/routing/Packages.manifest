@@ -1,0 +1,60 @@
+Package: olsrd-mod-jsoninfo
+Version: 0.9.7-v0.9.7
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceName: olsrd-mod-jsoninfo
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 21149
+Filename: olsrd-mod-jsoninfo_0.9.7-v0.9.7_mipsel_24kc.ipk
+Size: 21940
+SHA256sum: 9c01b957e4a982f29844d540cf136ebec9b43ced5c3f765e50bc6b8bc7d4788d
+Description:  Small informative plugin with JSON output
+
+Package: olsrd-mod-nameservice
+Version: 0.9.7-v0.9.7
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceName: olsrd-mod-nameservice
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 10201
+Filename: olsrd-mod-nameservice_0.9.7-v0.9.7_mipsel_24kc.ipk
+Size: 10958
+SHA256sum: b4b4cd3012137f0622f6ad82c6b36015a8da58f9f0e35d54492568a5c6f61dca
+Description:  Lightweight hostname resolver plugin
+
+Package: olsrd-mod-txtinfo
+Version: 0.9.7-v0.9.7
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+SourceName: olsrd-mod-txtinfo
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 13556
+Filename: olsrd-mod-txtinfo_0.9.7-v0.9.7_mipsel_24kc.ipk
+Size: 14272
+SHA256sum: 2a86b488e61750d46b6369b587cdbd8d8525e1dfdfe21dbcd8669ffad2f6e4e4
+Description:  Small informative web server plugin
+
+Package: olsrd
+Version: 0.9.7-v0.9.7
+Depends: libc, libpthread
+Source: feeds/routing/olsrd
+SourceName: olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 132148
+Filename: olsrd_0.9.7-v0.9.7_mipsel_24kc.ipk
+Size: 133016
+SHA256sum: 1e1b1a047cb54a5b0a8e54c337da821fbe2393e74b6d24feea61d53df7f409f3
+Description:  OLSR (Optimized Link State Routing) daemon
+
